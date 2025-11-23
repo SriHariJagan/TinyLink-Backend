@@ -98,7 +98,8 @@ Server will run at http://localhost:5000.
 
 ## Usage
  # 1.Creating a Short Link:
-  ``` {
+  ```
+ {
     "longUrl": "https://www.example.com",
     "shortCode": "mycode",
     "title": "Example Link"87
@@ -112,7 +113,7 @@ Server will run at http://localhost:5000.
 
 
 ## Folder Structure
-
+```
 tinylink-backend/
 │
 ├─ controllers/
@@ -133,5 +134,5 @@ tinylink-backend/
 ├─ .env
 ├─ package.json
 └─ server.js
-
+```
 
