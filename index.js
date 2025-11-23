@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import authRoutes from "./routers/authRoutes.js";
 import shortlinkRoutes from "./routers/shortLinkRoute.js";
 import { authMiddleware } from "./middleware/authMiddleware.js";
-import { redirectShortURL } from "./controllers/ShortLinkController.js";
+import { redirectShortURL } from "./controllers/shortLinkController.js";
 
 dotenv.config();
 const app = express();
